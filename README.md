@@ -13,10 +13,12 @@ Note: 1.03 only for now.
 3. To install tensorflow-gpu, in your TG folder, open a command prompt by clicking the address bar and typing cmd, then do `pip3 install --ignore-installed --upgrade tensorflow-gpu`
 4. To install other prerequisites, in the same cmd, do `pip3 install -r requirements.txt`
 5. To confirm that tensorflow-gpu is working correctly, open cmd, then this:
-`python
+
+```python
 import tensorflow as tf
 
-sess = tf.Session(config=tf.ConfigProto(log_device_placement=True))`
+sess = tf.Session(config=tf.ConfigProto(log_device_placement=True))```
+
 If successful you should see Device mapping: and some information on your GPU. If this says Device mapping: no known devices. , reboot and try again.
 
 # Making callsubprocess.py into an .exe
