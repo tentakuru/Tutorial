@@ -17,7 +17,8 @@ Note: 1.03 only for now.
 ```python
 import tensorflow as tf
 
-sess = tf.Session(config=tf.ConfigProto(log_device_placement=True))```
+sess = tf.Session(config=tf.ConfigProto(log_device_placement=True))
+```
 
 If successful you should see Device mapping: and some information on your GPU. If this says Device mapping: no known devices. , reboot and try again.
 
