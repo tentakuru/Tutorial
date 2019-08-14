@@ -1,5 +1,5 @@
-## Tutorial: custom TecoGAN build
-Note: 1.03 only for now.
+## Tutorial: custom TecoGAN build (Win 10)
+Note: 1.03 CUDA only for now.
 
 # Installing Python and CUDA
 1. Install Python 64-bit (https://www.python.org/downloads/).
