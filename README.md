@@ -1,4 +1,4 @@
-## Tutorial
+## Tutorial: custom TecoGAN build
 Note: 1.03 only for now.
 
 # Installing Python and CUDA
