@@ -1,12 +1,12 @@
 ## Tutorial
 Note: 1.03 only for now.
 
-#Installing Python and CUDA
+# Installing Python and CUDA
 1. Install Python 64-bit (https://www.python.org/downloads/).
 2. Install CUDA 10.0 (https://developer.nvidia.com/cuda-10.0-download-archive).
 3. Register at Nvidia Developers and download cuDNN (https://developer.nvidia.com/cudnn , download cuDNN). Place it in C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\bin or ensure it's in your system PATH environment variable.
 
-#Installing TecoGAN and other prerequisites
+# Installing TecoGAN and other prerequisites
 (note, if you've already got tensorflow (non gpu) installed at this point, uninstall it first with `pip uninstall tensorflow`)
 1. Go to https://github.com/tentakuru/TecoGAN and click the green Clone or download button, choose download as .zip. Unzip in your \TG folder.
 2. In runGan.py, change paths to the correct paths on your system.
@@ -18,7 +18,7 @@ import tensorflow as tf
 sess = tf.Session(config=tf.ConfigProto(log_device_placement=True))`
 If successful you should see Device mapping: and some information on your GPU. If this says Device mapping: no known devices. , reboot and try again.
 
-#Making callsubprocess.py into an .exe
+# Making callsubprocess.py into an .exe
 1. Go to https://github.com/tentakuru/CallSubprocess and click the green Clone or download button, choose download as .zip. Unzip in your \TG folder.
 1. In cmd, install pyinstaller by doing `pip3 install pyinstaller`
 2. In cmd (in TG folder) do `pyinstaller -F callsubprocess.py` . This will create a .exe of callsubprocess.py called callsubprocess.exe. 
