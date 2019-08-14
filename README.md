@@ -15,6 +15,7 @@ Note: 1.03 only for now.
 5. To confirm that tensorflow-gpu is working correctly, open cmd, then this:
 
 ```python
+python
 import tensorflow as tf
 
 sess = tf.Session(config=tf.ConfigProto(log_device_placement=True))
