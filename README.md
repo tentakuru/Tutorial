@@ -27,7 +27,7 @@ If successful you should see Device mapping: and some information on your GPU. I
 # Making callsubprocess.py into an .exe
 1. Go to https://github.com/tentakuru/CallSubprocess and click the green Clone or download button, choose download as .zip. Unzip in your \TG folder.
 1. In cmd, install pyinstaller by doing `pip3 install pyinstaller`
-2. In cmd (in TG folder) do `pyinstaller -F callsubprocess.py` . This will create a .exe of callsubprocess.py called callsubprocess.exe in the subfolder /dist/. Move this file into the main TG folder. 
+2. In cmd (in TG folder) do `pyinstaller -F callsubprocess.py` . This will create a .exe of callsubprocess.py called callsubprocess.exe in the subfolder \dist\. Move this file into the main TG folder. 
 3. Rename callsubprocess.exe to tgmain-cuda.exe (backup original file first).
 4. In the TG folder create a file called GAN.txt with the contents 0 and save the file.
 
