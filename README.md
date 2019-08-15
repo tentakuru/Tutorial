@@ -2,7 +2,7 @@
 Note: 1.03 CUDA only for now.
 
 # Installing Python, CUDA and PyTorch
-1. Install Python 64-bit (https://www.python.org/downloads/).
+1. Install Python 64-bit (https://www.python.org/downloads/windows/ x86-64 link, don't install 32-bit by mistake).
 2. Install PyTorch, open a command prompt by clicking the address bar and typing cmd, then do `pip3 install torch==1.2.0 torchvision==0.4.0 -f https://download.pytorch.org/whl/torch_stable.html`
 3. Install CUDA **10.0** (https://developer.nvidia.com/cuda-10.0-download-archive). Do not use 10.1 or tensorflow-gpu will fail.
 4. Register at Nvidia Developers and download cuDNN (https://developer.nvidia.com/cudnn , download cuDNN). Place it in C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\bin or ensure it's in your system PATH environment variable.
