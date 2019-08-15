@@ -33,3 +33,6 @@ If successful you should see Device mapping: and some information on your GPU. I
 
 You're done. Test it with a video, it will use your own TecoGAN with much faster loading/processing speeds. 
 Note that the video process is changed from doing one output folder at a time in separate tgmain-cuda.exes to doing all output folders in one tgmain-cuda.exe and then aborting the process for all remaining calls from the host program (will flash a bunch of cmd windows but isn't any problem)
+
+## Troubleshooting
+"AFL doesn't work!" #For AFL to work you need the model from #tutorials
