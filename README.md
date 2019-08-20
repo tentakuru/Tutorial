@@ -11,6 +11,7 @@ Note: 1.03 CUDA only for now.
 (note, if you've already got tensorflow (non gpu) installed at this point, uninstall it first with `pip uninstall tensorflow`)
 1. Go to https://github.com/tentakuru/TecoGAN and click the green Clone or download button, choose download as .zip. Unzip in your \TG folder.
 2. In runGan.py, change paths to the correct paths on your system.
+More specifically, right click runGan.py and open with notepad (or download visual studio code and use that), then for all paths that start with F:\ , change them to the paths on your system.
 3. To install tensorflow-gpu, in your TG folder, open a command prompt by clicking the address bar and typing cmd, then do `pip3 install --ignore-installed --upgrade tensorflow-gpu`
 4. To install other prerequisites, in the same cmd, do `pip3 install -r requirements.txt`
 5. To confirm that tensorflow-gpu is working correctly, open cmd, then this:
