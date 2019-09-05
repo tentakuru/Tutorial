@@ -1,6 +1,6 @@
 # 1.03 to 1.04 upgrade, do this if you have a working modded 1.03
 
-0. Copy old files to new TG (*note: not TGMAIN-CUDA*) folder (except for model folders and stuff not related to TecoGAN)
+0. Copy my old 1.03 mod files or get them again from https://github.com/tentakuru/TecoGAN (download as .zip), extract them in the new TG (*note: not TGMAIN-CUDA*) folder (except for model folders and stuff not related to TecoGAN)
 2. Remove TGMAIN-CUDA folder
 3. Create a new TGMAIN-CUDA folder (should be empty at this point)
 1. Get updated callsubprocess.py
