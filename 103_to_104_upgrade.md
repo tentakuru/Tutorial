@@ -6,7 +6,7 @@
 1. Get updated callsubprocess.py
 2. `pyinstaller -F callsubprocess.py`
 3. The last step created a file "callsubprocess.exe" in the folder \dist\, rename that file to tgmain.exe, put it in the TGMAIN-CUDA folder
-4. Get runGan104.py and main104.py, put in TG folder
+4. Get runGan104.py and main104.py if you don't have them from https://github.com/tentakuru/TecoGAN (download as .zip), put in TG folder
 5. In the top of runGan104.py replace the path with your own TG path
 6. In TGMAIN-CUDA folder create a file called GAN.txt and write `104` and save (no spaces, no enter)
 7. Now it works! ... maybe...
