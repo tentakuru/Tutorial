@@ -3,7 +3,7 @@
 0. Copy my old 1.03 mod files or get them again from https://github.com/tentakuru/TecoGAN (download as .zip), extract them in the new TG (*note: not TGMAIN-CUDA*) folder (except for model folders and stuff not related to TecoGAN)
 2. Remove TGMAIN-CUDA folder
 3. Create a new TGMAIN-CUDA folder (should be empty at this point)
-1. Get updated callsubprocess.py
+1. Get updated callsubprocess.py here: https://github.com/tentakuru/CallSubprocess/blob/master/callsubprocess.py, right click Raw and save it
 2. `pyinstaller -F callsubprocess.py`
 3. The last step created a file "callsubprocess.exe" in the folder \dist\, rename that file to tgmain.exe, put it in the TGMAIN-CUDA folder
 4. Get runGan104.py and main104.py if you don't have them from https://github.com/tentakuru/TecoGAN (download as .zip), put in TG folder
